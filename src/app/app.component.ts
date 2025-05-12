@@ -8,5 +8,9 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'RxJS';
+  users = [
+    {id: '1', name: 'Rohan', isActive: true},
+    {id: '2', name: 'Ryan', isActive: true},
+    {id: '3', name: 'Ron', isActive: true},
+  ]
 }
